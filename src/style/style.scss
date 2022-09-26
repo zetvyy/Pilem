@@ -1,0 +1,67 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.film {
+  background-color: #393e46;
+  width: 100%;
+  height: 200px;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h3 {
+    margin-left: 3rem;
+    color: #eeeeee;
+    margin-top: 20px;
+  }
+}
+
+.container {
+  h1 {
+    text-align: center;
+    color: #eeeeee;
+  }
+
+  .search_input {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .btn_search {
+    background-color: #00adb5;
+    border: #00adb5;
+  }
+}
+
+.card {
+  color: #eeeeee;
+  position: relative;
+  border: none;
+
+  .card-body {
+    background-color: #393e46;
+  }
+  .card-text {
+    margin-bottom: 50px;
+  }
+  .btn_detail {
+    position: absolute;
+    background-color: #00adb5;
+    border: #00adb5;
+    color: #eeeeee;
+    bottom: 10px;
+    left: 10px;
+  }
+}
